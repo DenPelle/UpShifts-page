@@ -1,13 +1,12 @@
 import React from "react";
-import Hero from "./components/Body";
+import LandingPage from "./components/LandingPage";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Body />
+    <div className="min-h-screen">
+      <LandingPage />
     </div>
   );
-}
+};
 
 export default App;
-
